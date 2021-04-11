@@ -41,8 +41,6 @@ export function TaskList() {
     setTasks(filteredTasks);
   }
 
-  console.log(tasks)
-
   return (
     <section className="task-list container">
       <header>
